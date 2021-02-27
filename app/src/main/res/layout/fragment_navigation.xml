@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red_dark">
+
+    <TextView
+        android:id="@+id/firstText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title1"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:layout_marginEnd="110dp"/>
+
+    <TextView
+        android:id="@+id/secondText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title2"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:id="@+id/thirdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title3"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:layout_marginStart="120dp"/>
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="220dp">
+        <Button
+            android:id="@+id/dollarButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/dollarButton"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/euroButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/euroButton"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/poundButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/poundButton"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonPanel1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="150dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/crownButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/crownButton"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/yuanButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/yuanButton"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

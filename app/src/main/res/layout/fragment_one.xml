@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/textAndImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+    <TextView
+        android:id="@+id/moneyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="44sp"
+        android:textColor="@color/black"
+        android:text="USD"
+        android:layout_marginEnd="20dp" />
+
+    <ImageView
+        android:id="@+id/moneyImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:src = "@drawable/usa"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/moneyRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="44sp"
+        android:textColor="@color/black"
+        android:text="@string/money"
+        android:visibility="gone" />
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

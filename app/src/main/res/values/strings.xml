@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Money</string>
+    <string name="money">%s рублей</string>
+    <string name="title1">Текущий</string>
+    <string name="title2">курс</string>
+    <string name="title3">рубля</string>
+    <string name="dollarButton">Доллар</string>
+    <string name="euroButton">Евро</string>
+    <string name="poundButton">Фунт</string>
+    <string name="crownButton">Крон</string>
+    <string name="yuanButton">Юань</string>
+    <string name="moneyFragmentTitleUsd">USD</string>
+    <string name="moneyFragmentTitleEuro">EUR</string>
+    <string name="moneyFragmentTitlePound">GBP</string>
+    <string name="moneyFragmentTitleCrown">CZK</string>
+    <string name="moneyFragmentTitleYuan">CNY</string>
+    <string name="web">Web</string>
+
+</resources>
